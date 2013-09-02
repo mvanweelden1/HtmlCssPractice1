@@ -5,31 +5,45 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     </head>
     <body>
-        <form id="form1" name="form1">
-            <fieldset>
+        <form style ="margin:auto;
+              position:relative;
+              width:550px;
+              height:450px;
+              font-family: Verdana, Geneva, sans-serif;
+              font-weight: bold;
+              font-size: 14px; " id="form1" name="form1">
+            <fieldset style=" background-color: #FFFFFF;
+                      background-image: -webkit-gradient(linear, left top, left bottom, from(#444444), to(#999999)); 
+                      background-image: -webkit-linear-gradient(top, #FFFFFF, #999999); 
+                      background-image:    -moz-linear-gradient(top, #FFFFFF, #999999);
+                      background-image:      -o-linear-gradient(top, #FFFFFF, #999999); ">
+                <p style="text-align: center;
+                   font-weight: bold;
+                   font-size: 26px;
+                  ">Contact Form</p>
                 <p>
                     <label style="display: block" for="firstName">First Name</label>
-                    <input type="text" name="firstName" id="firstName">
+                    <input type="text" name="firstName" id="firstName" style="border:3px double #561250;">
                 </p>
                 <p>
                     <label style="display: block" for="lastName">Last Name</label>
-                    <input type="text" name="lastName" id="lastName">
+                    <input type="text" name="lastName" id="lastName" style="border:3px double #561250;">
                 </p>
                 <p>
                     <label style="display: block" for="streetAddress">Street Address</label>
-                    <input type="text" name="streetAddress" id="streetAddress"> 
+                    <input type="text" name="streetAddress" id="streetAddress" style="border:3px double #561250;"> 
                 </p>
                 <p>
                     <label style="display: block" for="city">City</label>
-                    <input type="text" name="city" id="city"> 
+                    <input type="text" name="city" id="city" style="border:3px double #561250;"> 
                 </p>
                 <p>
                     <label style="display: block" for="zip">Zip Code</label>
-                    <input type="text" name="zip" id="zip"> 
+                    <input type="text" name="zip" id="zip" style="border:3px double #561250;"> 
                 </p>
                 <p>
                     <label style="display: block" for="state">State</label>
-                    <select name="state" id="state">
+                    <select name="state" id="state" style="border:3px double #561250;">
                         <option value="AL">Alabama</option>
                         <option value="AK">Alaska</option>
                         <option value="AZ">Arizona</option>
@@ -95,35 +109,51 @@
                 </p>
                 <p>
                     <label style="display: block" for="email">Email</label>
-                    <input type="text" name="email" id="email"> 
+                    <input type="text" name="email" id="email" style="border:3px double #561250;"> 
                 </p>
                 <P>
 
-                    <input type="checkbox" name="emailUpdate" value="yes"/>Check to receive email updates 
+                    <input type="checkbox" name="emailUpdate" value="yes" style="outline:3px double #561250;"/>Check to receive emails. 
                 </P>
                 <p>
                     <label style="display: block" for="aboutYourself">Tell us about yourself.</label>
-                    <textarea name="aboutYourself" id="aboutYourself" rows="4" cols="50">
+                    <textarea name="aboutYourself" id="aboutYourself" rows="4" cols="50" style="border:3px double #561250;">
                        
                     </textarea>
                 </p>
                 <p>
-                    <input type="submit" id="submit" value="Submit">
+                    <input type="submit" id="submit" value="Submit" style="
+                           font-size: 14px;
+                           color: #561250;
+                           padding: 5px 10px;
+                           background: -moz-linear-gradient(
+                           top,
+                           #ffffff 0%,
+                           #ffffff 50%,
+                           #d6d6d6);
+                           background: -webkit-gradient(
+                           linear, left top, left bottom, 
+                           from(#ffffff),
+                           color-stop(0.50, #ffffff),
+                           to(#d6d6d6));
+                           -moz-border-radius: 10px;
+                           -webkit-border-radius: 10px;
+                           border-radius: 10px;
+                           border: 3px solid #561250;
+                           -moz-box-shadow:
+                           0px 1px 3px rgba(000,000,000,0.5),
+                           inset 0px 0px 3px rgba(255,255,255,1);
+                           -webkit-box-shadow:
+                           0px 1px 3px rgba(000,000,000,0.5),
+                           inset 0px 0px 3px rgba(255,255,255,1);
+                           box-shadow:
+                           0px 1px 3px rgba(000,000,000,0.5),
+                           inset 0px 0px 3px rgba(255,255,255,1);
+                           text-shadow:
+                           0px -1px 0px rgba(000,000,000,0.1),
+                           0px 1px 0px rgba(255,255,255,1);">
                 </p>
-
-
-
-
-
-
-
             </fieldset>
-
-
-
-
-
-
         </form>
     </body>
 </html>
