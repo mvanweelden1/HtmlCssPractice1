@@ -1,0 +1,39 @@
+form {
+    margin:auto;
+    position:relative;
+    width:550px;
+    height:450px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+fieldset {
+    background-color: #FFFFFF;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#444444), to(#999999)); 
+    background-image: -webkit-linear-gradient(top, #FFFFFF, #999999); 
+    background-image:    -moz-linear-gradient(top, #FFFFFF, #999999);
+    background-image:      -o-linear-gradient(top, #FFFFFF, #999999);
+}
+#formTitle {
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+}
+label {
+    display: block
+}
+input, select, textArea {
+    border:3px double #561250;  
+}
+#emailUpdate {
+    outline: 3px double #561250;
+}
+#submit {
+    font-size: 14px;
+    color: #561250;
+    padding: 5px 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 3px solid #561250;
+}
